@@ -2,7 +2,7 @@
 
 import parseDate from 'date-fns/parse'
 import formatDate from 'date-fns/format'
-import { findTimeZone, getUTCOffset } from 'timezone-support'
+import { findTimeZone, getUTCOffset } from 'timezone-support/dist/index-2012-2022'
 
 /**
  * @category Common Helpers

@@ -1,7 +1,7 @@
 /** @module date-fns */
 
 import parse from 'date-fns/parse'
-import { findTimeZone, getUTCOffset } from 'timezone-support'
+import { findTimeZone, getUTCOffset } from 'timezone-support/dist/index-2012-2022'
 
 /**
  * @category Common Helpers
