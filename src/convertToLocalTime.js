@@ -1,7 +1,7 @@
 /** @module date-fns */
 
 import parse from 'date-fns/parse'
-import { findTimeZone, getUTCOffset } from 'timezone-support'
+import { findTimeZone, getUTCOffset } from '@zenchef/timezone-support'
 
 /**
  * @category Common Helpers

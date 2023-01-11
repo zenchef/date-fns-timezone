@@ -1,6 +1,6 @@
 {
   "name": "@zenchef/date-fns-timezone",
-  "version": "0.0.0-development",
+  "version": "0.0.1-development",
   "description": "Parsing and formatting date strings using IANA time zones for date-fns.",
   "author": {
     "name": "Ferdinand Prantl",
@@ -77,7 +77,7 @@
   },
   "dependencies": {
     "date-fns": "^1.29.0",
-    "timezone-support": "3.1.0"
+    "@zenchef/timezone-support": "2.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",

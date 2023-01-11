@@ -1,7 +1,7 @@
 /** @module date-fns */
 
-import { parseZonedTime } from 'timezone-support/dist/parse-format'
-import { convertTimeToDate } from 'timezone-support/dist/lookup-convert'
+import { parseZonedTime } from '@zenchef/timezone-support/dist/parse-format'
+import { convertTimeToDate } from '@zenchef/timezone-support/dist/lookup-convert'
 
 /**
  * @category Common Helpers

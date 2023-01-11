@@ -1,8 +1,8 @@
 /** @module date-fns */
 
 import parse from 'date-fns/parse'
-import { findTimeZone, getUTCOffset, getUnixTime } from 'timezone-support'
-import { parseZonedTime } from 'timezone-support/dist/parse-format'
+import { findTimeZone, getUTCOffset, getUnixTime } from '@zenchef/timezone-support'
+import { parseZonedTime } from '@zenchef/timezone-support/dist/parse-format'
 
 /**
  * @category Common Helpers

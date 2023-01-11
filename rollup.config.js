@@ -5,7 +5,7 @@ export default [
   {
     input: 'src/index.js',
     external: [
-      'date-fns', 'timezone-support'
+      'date-fns', '@zenchef/timezone-support'
     ],
     output: {
       file: 'dist/index.umd.js',
@@ -14,7 +14,7 @@ export default [
       globals: {
         'date-fns/parse': 'dateFns.parse',
         'date-fns/format': 'dateFns.format',
-        'timezone-support': 'timezone-support'
+        '@zenchef/timezone-support': '@zenchef/timezone-support'
       },
       sourcemap: true
     },
