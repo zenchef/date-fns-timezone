@@ -1,6 +1,6 @@
 {
   "name": "@zenchef/date-fns-timezone",
-  "version": "0.0.1-development",
+  "version": "0.0.2-development",
   "description": "Parsing and formatting date strings using IANA time zones for date-fns.",
   "author": {
     "name": "Ferdinand Prantl",
